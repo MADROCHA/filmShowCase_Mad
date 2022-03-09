@@ -13,8 +13,13 @@ p{
     
 }
 body{ 
-    color: bisque;
-    background: #1F1717;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center; 
+    /*color: bisque;
+    background: #1F1717;*/
     
  }
  .imgSlider{
