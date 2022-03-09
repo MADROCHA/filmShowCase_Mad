@@ -1,13 +1,22 @@
 nav{
-    background-color: rgb(1, 25, 68);
-
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(42, 49, 58);
+    
+    display: flex;
+    margin-left: ;
+    margin-right: ;
     border-radius: 10px;
 }
 
 p{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
+body{ 
+    color: bisque;
+    background: #1F1717;
+    
+ }
+ label{
+     align-items: center;
+ }
