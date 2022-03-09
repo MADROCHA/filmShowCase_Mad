@@ -1,0 +1,13 @@
+nav{
+    background-color: rgb(1, 25, 68);
+
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 500px;
+    margin-right: 500px;
+}
