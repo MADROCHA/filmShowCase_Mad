@@ -1,4 +1,4 @@
-nav{
+/*nav{
     background-color: rgb(42, 49, 58);
     
     display: flex;
@@ -16,40 +16,41 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh; 
+    display: flex;
     justify-content: center;
-    align-items: center; 
-    /*color: bisque;
-    background: #1F1717;*/
+    align-items: center;
+    background: #697ab4;
     
- }
- .imgSlider{
+    
+}*/
+.slidersss{
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
- }
- .imgSlides{
-    width: 500px;
+}
+.slides{
+    width: 500%;
     height: 500px;
     display: flex;
- }
- .imgSlides input{
-     display: none;
- }
- .slide{
-     width: 20%;
-     transition: 2s;
- }
- .slide img{
-     width:  800px;
-     height: 500px;
- }
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width:  800px;
+    height: 500px;
+}
 /*Navigation , manual slider*/
 
-.move-nav-auto{
+.navigation-auto{
 
 }
-.move-nav-manual{
+.navigation-manual{
     position:  absolute;
     width:  800px;  
     margin-top: -40px;  
@@ -57,10 +58,26 @@ body{
     justify-content: center;
 
 }
-.btnManual{
-    border:  2px solid #42454F ;
+.manual-btn{
+    border:  2px solid #697ab4;
     padding: 5px;
     border-radius: 10px;    
     cursor: pointer;
     transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #697ab4;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio1:checked ~ .first{
+    margin-left: 0%;
 }
