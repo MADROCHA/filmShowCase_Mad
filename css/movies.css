@@ -17,6 +17,14 @@ body{
     background: #1F1717;
     
  }
- label{
-    
+ .imgSlider{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+ .imgSlide{
+    width: 200px;
+    height: 200px;
+    display: flex;
  }
