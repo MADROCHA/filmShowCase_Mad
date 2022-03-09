@@ -2,8 +2,8 @@ nav{
     background-color: rgb(42, 49, 58);
     
     display: flex;
-    margin-left: ;
-    margin-right: ;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
 }
 
@@ -18,5 +18,5 @@ body{
     
  }
  label{
-     align-items: center;
+    
  }
