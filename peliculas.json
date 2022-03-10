@@ -8,15 +8,15 @@
     },
     {
       "id": 2,
-      "nombre": "Pulp Fiction",
+      "nombre": "Pup Fiction",
       "director": "Tarantino",
       "clasificacion": "Acción"
     },
     {
       "id": 4,
-      "nombre": "300",
-      "director": "Zack Snyder",
-      "clasificacion": "Acción"
+      "nombre": "The Adventures of Robin Hood",
+      "director": "Michael Curtiz & William Keighley",
+      "clasificacion": "Aventuras"
     },
     {
       "id": 5,
@@ -65,9 +65,6 @@
     },
     {
       "id": 13
-    },
-    {
-      "id": 14
     }
   ]
 }
