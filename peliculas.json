@@ -1,6 +1,12 @@
 {
   "peliculas": [
     {
+      "id": 1,
+      "nombre": "It’s A Wonderful Life",
+      "director": "Frank Capra",
+      "clasificacion": "Drama"
+    },
+    {
       "id": 2,
       "nombre": "Pulp Fiction",
       "director": "Tarantino",
@@ -31,6 +37,9 @@
       "clasificacion": "Documental"
     },
     {
+      "nombre": "",
+      "director": "",
+      "clasificacion": "",
       "id": 8
     },
     {
@@ -50,6 +59,15 @@
       "director": "M. Night Shyamalan",
       "clasificacion": "Drama",
       "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
     }
   ]
 }
