@@ -1,16 +1,19 @@
-/*nav{
+nav{
     background-color: rgb(42, 49, 58);
     
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 10px;
+    text-align: right;
+    align-content: flex-start;
 }
 
 p{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
     
+
 }
 body{ 
     margin: 0;
@@ -22,7 +25,27 @@ body{
     background: #697ab4;
     
     
-}*/
+}
+.footer{
+    position: fixed;
+    left: 0%;       
+    bottom: 0%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+.socialFloat{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    width: 25%;
+    height: 25%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: right;
+}
+
 .slidersss{
     width: 800px;
     height: 500px;
