@@ -1,4 +1,43 @@
+*{
+    list-style: none;
+    padding: 0;
+    
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    
+}
 
+nav{
+    background: rgb(49, 97, 160);
+    width:100%;
+    
+    
+
+}
+label.Logo{
+    color: azure;
+    padding: 0 70px;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    line-height: px;    
+    margin: 10px 10px;
+    
+}
+nav ul li a{
+    color: azure;
+    font-size: 90%;
+    
+}
+p{
+    padding: 0 20%;
+}
 .footer{
     position: fixed;
     left: 0%;       
@@ -6,24 +45,14 @@
     width: 100%;
     background-color: aqua;
     border-radius: 10px;
+    text-align: center;
 }
-
-.socialFloat{
-    position: fixed;
-    right: 0%;
-    bottom: 0%;
-    width: 25%;
-    height: 25%;
-    background-color: blueviolet;
-    border-radius: 10px;
-    text-align: right;
-}
-
 .slidersss{
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    flex: content;
 }
 .slides{
     width: 500%;
