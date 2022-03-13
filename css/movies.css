@@ -36,7 +36,7 @@ nav ul li a{
     
 }
 p.firstP{
-    padding: 0 20%;
+    padding: 0 30%;
     background-color: rgb(124, 93, 47);
 }
 .footer{
@@ -115,7 +115,6 @@ p.firstP{
 }
 #radio3:checked ~ .first{
     margin-left: -40%;
-    
 }
 #radio1:checked ~ .first{
     margin-left: 0%;
