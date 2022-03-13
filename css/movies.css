@@ -1,6 +1,7 @@
 *{
     list-style: none;
     padding: 0;
+    margin: 0;
     
 }
 body{
@@ -11,35 +12,41 @@ body{
 
 nav{
     background: rgb(49, 97, 160);
-    width:100%;
     display: grid; 
-    grid-template-columns: 1fr  2fr ;
-    
+    grid-template-columns: 1fr  2fr  1fr ;
+    padding: 10px 30px;
+    line-height: 50px;
     
 
 }
 label.Logo{
     color: azure;
-    padding: 0 70px;
     font-size: 150%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 50px;
     font-weight: bold;
 }
+input.search{
+    width: 600px;
+    
+}
+input {
+    padding: 10px 10px;
+}
+
 nav ul li{
-    display: inline;
-    line-height: px;    
-    margin: 10px 10px;
+    display: inline;   
+    margin: 10px 20px;
     
 }
 nav ul li a{
     color: azure;
-    font-size: 90%;
+    font-size: ;
     
 }
 p.firstP{
     padding: 0 30%;
-    background-color: rgb(124, 93, 47);
+    background-color: rgb(114, 112, 109);
 }
 .footer{
     position: fixed;
