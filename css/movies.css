@@ -39,10 +39,12 @@ nav ul li{
     margin: 10px 20px;
     
 }
-nav ul li a{
+.navBox2 li a{
     color: azure;
-    font-size: ;
     
+}
+.header{
+    grid-area: 1fr 20px / 1fr 20px;
 }
 p.firstP{
     padding: 0 30%;
