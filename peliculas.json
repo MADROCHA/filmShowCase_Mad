@@ -13,6 +13,12 @@
       "clasificacion": "Acción"
     },
     {
+      "nombre": "Batman",
+      "director": "M. Night Shyamalan",
+      "clasificacion": "Drama",
+      "id": 3
+    },
+    {
       "id": 4,
       "nombre": "The Adventures of Robin Hood",
       "director": "Michael Curtiz & William Keighley",
@@ -23,51 +29,6 @@
       "nombre": "My Darling Clementine",
       "director": "Jhon Ford",
       "clasificacion": "Western"
-    },
-    {
-      "id": 6,
-      "nombre": "Forrest Gump",
-      "director": "Robert Zemeckis",
-      "clasificacion": "Comedia"
-    },
-    {
-      "id": 7,
-      "nombre": "Las Hurdes",
-      "director": "Luis Buñuel",
-      "clasificacion": "Documental"
-    },
-    {
-      "nombre": "",
-      "director": "",
-      "clasificacion": "",
-      "id": 8
-    },
-    {
-      "nombre": "El sexto sentido",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 9
-    },
-    {
-      "nombre": "Sagan",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 10
-    },
-    {
-      "nombre": "Batman",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
     }
   ]
 }
