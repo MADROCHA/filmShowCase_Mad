@@ -12,6 +12,8 @@ body{
 nav{
     background: rgb(49, 97, 160);
     width:100%;
+    display: grid; 
+    grid-template-columns: 1fr  2fr ;
     
     
 
