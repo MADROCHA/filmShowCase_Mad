@@ -4,13 +4,15 @@
       "id": 1,
       "nombre": "It’s A Wonderful Life",
       "director": "Frank Capra",
-      "clasificacion": "Drama"
+      "clasificacion": "Drama",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg"
     },
     {
       "id": 2,
-      "nombre": "Pup Fiction",
+      "nombre": "Pupy Fiction",
       "director": "Tarantino",
-      "clasificacion": "Acción"
+      "clasificacion": "Acción",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI0N2IzM2ItOTVhNS00M2VlLTkyMjUtMjRjYTA1ZTE0YmViXkEyXkFqcGdeQXVyMzU5ODQ0MTU@._V1_.jpg"
     },
     {
       "nombre": "Batman",
