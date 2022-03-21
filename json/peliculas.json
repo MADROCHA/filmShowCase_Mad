@@ -18,19 +18,36 @@
       "nombre": "Batman",
       "director": "M. Night Shyamalan",
       "clasificacion": "Drama",
+      "imagen": "https://i0.wp.com/www.hireanillustrator.com/i/images/2022/02/TheBatman_HAI_News_SimonCarr-5208aa30580126a25556eb0ffd76ad63.jpg?ssl=1",
       "id": 3
     },
     {
       "id": 4,
-      "nombre": "The Adventures of Robin Hood",
-      "director": "Michael Curtiz & William Keighley",
-      "clasificacion": "Aventuras"
+      "nombre": "The Secret of NIMH",
+      "director": "Don Bluth",
+      "clasificacion": "Animación Aventura",
+      "imagen": "https://pics.filmaffinity.com/The_Secret_of_NIMH-949230928-large.jpg"
     },
     {
       "id": 5,
-      "nombre": "My Darling Clementine",
-      "director": "Jhon Ford",
-      "clasificacion": "Western"
+      "nombre": "An American Tail",
+      "director": "Don Bluth",
+      "clasificacion": "Animación",
+      "imagen": "https://pics.filmaffinity.com/an_american_tail-955780754-mmed.jpg"
+    },
+    {
+      "nombre": "We’re Back: A Dinosaur’s Story",
+      "director": "Simon Wells, Phil Nibbelink, Dick Zondag, Ralph Zondag",
+      "clasificacion": "Animación",
+      "id": 6,
+      "imagen": "https://pics.filmaffinity.com/we_re_back_a_dinosaur_s_story-531864307-mmed.jpg"
+    },
+    {
+      "nombre": "The Pagemaster",
+      "director": "Joe Johnston, Pixote Hunt",
+      "clasificacion": "Animación",
+      "id": 7,
+      "imagen": "https://pics.filmaffinity.com/El_guardi_n_de_las_palabras-971128620-large.jpg"
     }
   ]
 }
