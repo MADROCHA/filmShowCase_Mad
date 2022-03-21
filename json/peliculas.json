@@ -9,10 +9,9 @@
     },
     {
       "id": 2,
-      "nombre": "Pupy Fiction",
+      "nombre": "Pulp Fiction",
       "director": "Tarantino",
-      "clasificacion": "Acción",
-      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI0N2IzM2ItOTVhNS00M2VlLTkyMjUtMjRjYTA1ZTE0YmViXkEyXkFqcGdeQXVyMzU5ODQ0MTU@._V1_.jpg"
+      "clasificacion": "Acción"
     },
     {
       "nombre": "Batman",
@@ -31,6 +30,12 @@
       "nombre": "My Darling Clementine",
       "director": "Jhon Ford",
       "clasificacion": "Western"
+    },
+    {
+      "nombre": "Mis problemas con Update Crud",
+      "director": "F5 feat.Ubuntu",
+      "clasificacion": "Drama y Amor Hardcore",
+      "id": 6
     }
   ]
 }
