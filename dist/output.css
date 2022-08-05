@@ -639,6 +639,10 @@ video {
   width: 50%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -683,6 +687,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -711,6 +719,10 @@ video {
   border-width: 2.8px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -733,6 +745,30 @@ video {
 .bg-colorBlueDark {
   --tw-bg-opacity: 1;
   background-color: rgb(61 90 108 / var(--tw-bg-opacity));
+}
+
+.bg-colorPurpleLight {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 65 103 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-colorPurpleLight {
+  --tw-gradient-from: #DA4167;
+  --tw-gradient-to: rgb(218 65 103 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-colorBlueDark {
+  --tw-gradient-to: #3D5A6C;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 
 .object-cover {
@@ -796,6 +832,11 @@ video {
   padding-right: 10px;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pl-\[5px\] {
   padding-left: 5px;
 }
@@ -852,6 +893,16 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -888,8 +939,37 @@ video {
           text-decoration-line: underline;
 }
 
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.decoration-\[3px\] {
+  text-decoration-thickness: 3px;
+}
+
 .hover\:w-5\/6:hover {
   width: 83.333333%;
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover\:animate-spin:hover {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
 }
 
 .hover\:border-colorPurpleDark:hover {
@@ -920,6 +1000,28 @@ video {
 .hover\:text-colorPurpleDark:hover {
   --tw-text-opacity: 1;
   color: rgb(31 3 34 / var(--tw-text-opacity));
+}
+
+.hover\:text-colorPurpleLight:hover {
+  --tw-text-opacity: 1;
+  color: rgb(218 65 103 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:underline-offset-2:hover {
+  text-underline-offset: 2px;
+}
+
+.hover\:underline-offset-4:hover {
+  text-underline-offset: 4px;
+}
+
+.hover\:underline-offset-8:hover {
+  text-underline-offset: 8px;
 }
 
 .hover\:duration-500:hover {

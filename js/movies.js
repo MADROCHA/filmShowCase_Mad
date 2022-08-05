@@ -44,9 +44,11 @@ fetchMoviesJSON().then(movies => {
                         </p> 
                     </div>
 
-                    <a class="hover:bg-colorPurpleLight " href="">
-                    <img class="h-[22px] w-[22px] " src="https://www.pngplay.com/wp-content/uploads/8/Black-Vector-Star-PNG-HD-Quality.png" alt=""/>
+                    <a class="" href="">
+
+                    <i class="h-[22px] w-[22px] | bg-clip-text | hover:text-colorPurpleLight  bg-gradient-to-b from-colorPurpleLight to-colorBlueDark  fa-solid fa-star"></i>
                     </a>
+                    
 
                     </div> 
                 </section>
