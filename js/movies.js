@@ -15,71 +15,72 @@ fetchMoviesJSON().then(movies => {
         
 
         filmSection.innerHTML+=`
-    <li class="flex  w-full h-full items-center  bg-colorLightGray">
-        
-        
-            <img class="w-1/3  flex " src="${image}" alt="Film Visual Media cap">
-        
-        
-            <div class="w-full flex flex-col px-2.5  ">
-                    
+
+        <li class="flex h-[116px] group  w-full items-center text-[12px] font-semibold  bg-colorLightGray ">
             
-                    <section class=" flex w-full    	">
-                        <div class="flex ">     
-                            <p class="   ">
-                            ${title}
-                            </p>
-                        </div>     
-                        <div class="flex">
-                            <p>
-                            4
-                            </p>
-                            <p>
-                            /
-                            </p>
-                            <p>
-                            5
-                            </p> 
-                        </div> 
-                    </section>
-
-
+        <a class=" w-1/2 h-full " href="">
+            <img class=" object-cover h-full w-full flex |  group-hover:animate-pulse" src="${image}" alt="Film Visual Media cap">
+        </a>
+        
+            <div class="w-6/12 flex flex-col pl-[5px] pr-[5px] ">
                             
-                    <section class="flex flex-col     ">
-                        <div class="flex gap-[10px]">
-                            <p class=" ">
-                                Genre :
-                            </p>
-                            <p class="">
-                                ${category}
-                            </p>
-                        </div> 
-                        <div class="flex gap-[10px]">
-                            <p class=" ">
-                                Dir :
-                            </p>
-                            <p>
-                                ${director}
-                            </p>
-                        </div> 
-                    </section>
-                    
-                    <div class="flex     border-2 border-colorPurpleLight  "> 
-                        <a href="" 
-                        class="flex py-4  px-8 rounded-[4px] text-xl border-2 text-colorPurpleLight border-colorPurpleLight ">
-                            see more
-                        </a>
+                <section class=" flex items-center w-full justify-between p-[5px]   	">
+                    <div class="flex  pl-[5px] ">     
+                        <p class="border-b-2 border-colorPurpleDark h-fit   ">
+                        ${title}
+                        </p>
+                    </div>     
+                    <div class="flex items-center gap-2.5">
+                    <div class="flex gap-[5px]">
+
+                        <p>
+                        4
+                        </p>
+                        <p>
+                        /
+                        </p>
+                        <p>
+                        5
+                        </p> 
+                    </div>
+
+                    <a class="hover:bg-colorPurpleLight " href="">
+                    <img class="h-[22px] w-[22px] " src="https://www.pngplay.com/wp-content/uploads/8/Black-Vector-Star-PNG-HD-Quality.png" alt=""/>
+                    </a>
+
                     </div> 
+                </section>
+
+
+                        
+                <section class="pl-[5px]  flex flex-col text-[10px]     ">
+                    <div class="flex gap-[5px]">
+                        <p class=" ">
+                            Genre :
+                        </p>
+                        <p class="font-medium">
+                        ${category}
+                        </p>
+                    </div> 
+                    <div class="flex gap-[5px]">
+                        <p class=" ">
+                            Dir :
+                        </p>
+                        <p class="font-medium">
+                            ${director}
+                        </p>
+                    </div> 
+                </section>
+                
+                <div class="flex text-[12px] group font-bold justify-end pb-[5px] pr-[5px] border-colorPurpleLight  "> 
+                    <a href="" 
+                    class="flex py-[8px]  px-[16px] rounded-[4px]  border-2 text-colorPurpleLight border-colorPurpleLight |  | hover:border-colorPurpleDark hover:bg-colorPurpleDark hover:text-colorLightGray ">
+                        see more
+                    </a>
+                </div> 
             </div> 
+        </li> 
         
-                
-                    
-        
-    </li> 
-                
-
-            
-
         
     `  }    
 })
