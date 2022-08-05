@@ -2,52 +2,52 @@
   "peliculas": [
     {
       "id": 1,
-      "nombre": "It’s A Wonderful Life",
-      "director": "Frank Capra",
-      "clasificacion": "Drama",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg"
+      "nombre": "The Mask",
+      "director": "Chuck Russell",
+      "clasificacion": "Comedy",
+      "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/26f07d27840157.5636b95cb61ea.jpg"
     },
     {
       "id": 2,
       "nombre": "Pulp Fiction",
-      "director": "Tarantino",
-      "clasificacion": "Acción",
-      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI0N2IzM2ItOTVhNS00M2VlLTkyMjUtMjRjYTA1ZTE0YmViXkEyXkFqcGdeQXVyMzU5ODQ0MTU@._V1_.jpg"
+      "director": "Quentin Tarantino",
+      "clasificacion": "Drama",
+      "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/4f237a25989039.59aff82172dca.jpg"
     },
     {
-      "nombre": "Batman",
-      "director": "M. Night Shyamalan",
+      "nombre": "Fight Club",
+      "director": "David Fincher",
       "clasificacion": "Drama",
-      "imagen": "https://i0.wp.com/www.hireanillustrator.com/i/images/2022/02/TheBatman_HAI_News_SimonCarr-5208aa30580126a25556eb0ffd76ad63.jpg?ssl=1",
+      "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b0245224935291.5633c8403cc42.jpg",
       "id": 3
     },
     {
       "id": 4,
-      "nombre": "The Secret of NIMH",
-      "director": "Don Bluth",
-      "clasificacion": "Animación Aventura",
-      "imagen": "https://pics.filmaffinity.com/The_Secret_of_NIMH-949230928-large.jpg"
+      "nombre": "Luca",
+      "director": "Enrico Casarosa",
+      "clasificacion": "Animation",
+      "imagen": "https://www.disneyfanatic.com/wp-content/uploads/2022/05/Credit-Disney-Cover-1-620x330.png"
     },
     {
       "id": 5,
-      "nombre": "An American Tail",
-      "director": "Don Bluth",
-      "clasificacion": "Animación",
-      "imagen": "https://pics.filmaffinity.com/an_american_tail-955780754-mmed.jpg"
+      "nombre": "Brave",
+      "director": "Brenda Chapman, Mark Andrews",
+      "clasificacion": "Animation",
+      "imagen": "https://cdn.wallpapersafari.com/53/79/ajwtby.jpg"
     },
     {
-      "nombre": "We’re Back: A Dinosaur’s Story",
-      "director": "Simon Wells, Phil Nibbelink, Dick Zondag, Ralph Zondag",
-      "clasificacion": "Animación",
+      "nombre": "Star Wars V",
+      "director": "Irvin Kershner",
+      "clasificacion": "Action",
       "id": 6,
-      "imagen": "https://pics.filmaffinity.com/we_re_back_a_dinosaur_s_story-531864307-mmed.jpg"
+      "imagen": "https://milnersblog.files.wordpress.com/2015/09/star-wars-episode-v-the-empire-strikes-back-classic-poster-without-word-all-text-removed.jpg?w=587"
     },
     {
-      "nombre": "The Pagemaster",
-      "director": "Joe Johnston, Pixote Hunt",
-      "clasificacion": "Animación",
+      "nombre": "Evil Dead",
+      "director": "Sam Raimi",
+      "clasificacion": "Terror",
       "id": 7,
-      "imagen": "https://pics.filmaffinity.com/El_guardi_n_de_las_palabras-971128620-large.jpg"
+      "imagen": "https://m.media-amazon.com/images/I/71aBEM-PS4L._AC_SL1000_.jpg"
     }
   ]
 }
