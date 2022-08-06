@@ -1,3 +1,5 @@
+![filmShowCase_gif1](https://user-images.githubusercontent.com/100350587/183253487-9bdd620b-9f04-4ec8-8440-304e049b485b.gif)
+
 # filmShowCase_Mad
 
 ## Description
@@ -26,6 +28,8 @@ Tailwind CSS
 ## Launch Project
 
 ## Project Media
+
+https://user-images.githubusercontent.com/100350587/183253191-ecd148e1-2c6c-4d2b-8907-729a0fa07934.mp4
 
 ## Deploy
 
