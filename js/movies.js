@@ -16,13 +16,13 @@ fetchMoviesJSON().then(movies => {
 
         filmSection.innerHTML+=`
 
-        <li class="flex h-[116px] group  w-full items-center text-[12px] font-semibold  bg-colorLightGray ">
+        <li class=" md:flex md:flex-col md:h-80 md:w-min md:text-lg  | flex h-[116px] group  w-full items-center text-[12px] font-semibold  bg-colorLightGray ">
             
-        <a class=" w-1/2 h-full " href="">
+        <a class="md:h-1/2 md:w-[320px] | w-1/2  " href="">
             <img class=" object-cover h-full w-full flex |  group-hover:animate-pulse" src="${image}" alt="Film Visual Media cap">
         </a>
         
-            <div class="w-6/12 flex flex-col pl-[5px] pr-[5px] ">
+            <div  class="md:h-full md:w-full | w-6/12 flex flex-col pl-[5px] pr-[5px] ">
                             
                 <section class=" flex items-center w-full justify-between p-[5px]   	">
                     <div class="flex  pl-[5px] ">     
@@ -55,7 +55,7 @@ fetchMoviesJSON().then(movies => {
 
 
                         
-                <section class="pl-[5px]  flex flex-col text-[10px]     ">
+                <section class=" md:text-[16px] md:font-medium |pl-[5px]  flex flex-col text-[10px]     ">
                     <div class="flex gap-[5px]">
                         <p class=" ">
                             Genre :
