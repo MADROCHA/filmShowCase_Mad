@@ -4,7 +4,7 @@
 
 ## Description
 
-filmShowCase is a web page with a catalogue movies, it gets information with a fake API using JSON.
+This project its a website view which displays a catalogue of movies, it gets information with a fake API using JSON.
 
 ## Tools for Development
 
@@ -13,6 +13,12 @@ Figma
 [![My Skills](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
 
 https://www.figma.com/file/qucNFmhChAm7eavEuxevQf/filmShowCase?node-id=0%3A1
+
+vsc
+
+[![My Skills](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg)
+
+
 
 ## programming languages 
 
