@@ -12,19 +12,20 @@ fetchMoviesJSON().then(movies => {
         let director = movies.peliculas[index].director;
         let category = movies.peliculas[index].clasificacion;
         let image = movies.peliculas[index].imagen;
+        let rating = movies.peliculas[index].valoracion;
         
 
         filmSection.innerHTML+=`
 
-        <li class=" md:flex md:flex-col md:h-80 md:w-min md:text-lg  | flex h-[116px] group  w-full items-center text-[12px] font-semibold  bg-colorLightGray ">
+        <li class=" md:flex md:flex-col md:h-80 md:w-min md:text-lg  | text-colorPurpleDark flex h-[116px] group  w-full items-center text-[12px] font-semibold  bg-colorLightGray ">
             
         <a class="md:h-1/2 md:w-[320px] | w-1/2  " href="">
             <img class=" object-cover h-full w-full flex |  group-hover:animate-pulse" src="${image}" alt="Film Visual Media cap">
         </a>
         
-            <div  class="md:h-full md:w-full | w-6/12 flex flex-col pl-[5px] pr-[5px] ">
+            <div  class="md:h-full md:w-full md:pl-[10px] | w-6/12 flex flex-col pl-[5px] pr-[5px] ">
                             
-                <section class=" flex items-center w-full justify-between p-[5px]   	">
+                <section class=" md: | flex items-center w-full justify-between p-[5px]   	">
                     <div class="flex  pl-[5px] ">     
                         <p class="border-b-2 border-colorPurpleDark h-fit   ">
                         ${title}
@@ -33,8 +34,8 @@ fetchMoviesJSON().then(movies => {
                     <div class="flex items-center gap-2.5">
                     <div class="flex gap-[5px]">
 
-                        <p>
-                        4
+                        <p class="font-bold text-colorPurpleLight  ">
+                        ${rating}
                         </p>
                         <p>
                         /
@@ -55,7 +56,7 @@ fetchMoviesJSON().then(movies => {
 
 
                         
-                <section class=" md:text-[16px] md:font-medium |pl-[5px]  flex flex-col text-[10px]     ">
+                <section class=" md:mt-[px] | md:text-[16px] md:font-medium |pl-[5px]  flex flex-col text-[10px]     ">
                     <div class="flex gap-[5px]">
                         <p class=" ">
                             Genre :

@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nombre": "The Mask",
+      "valoracion": "5",
       "director": "Chuck Russell",
       "clasificacion": "Comedy",
       "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/26f07d27840157.5636b95cb61ea.jpg"
@@ -10,12 +11,14 @@
     {
       "id": 2,
       "nombre": "Pulp Fiction",
+      "valoracion": "5",
       "director": "Quentin Tarantino",
       "clasificacion": "Drama",
       "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/4f237a25989039.59aff82172dca.jpg"
     },
     {
       "nombre": "Fight Club",
+      "valoracion": "5",
       "director": "David Fincher",
       "clasificacion": "Drama",
       "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b0245224935291.5633c8403cc42.jpg",
@@ -24,6 +27,7 @@
     {
       "id": 4,
       "nombre": "Luca",
+      "valoracion": "5",
       "director": "Enrico Casarosa",
       "clasificacion": "Animation",
       "imagen": "https://www.disneyfanatic.com/wp-content/uploads/2022/05/Credit-Disney-Cover-1-620x330.png"
@@ -31,23 +35,66 @@
     {
       "id": 5,
       "nombre": "Brave",
+      "valoracion": "5",
       "director": "Brenda Chapman, Mark Andrews",
       "clasificacion": "Animation",
       "imagen": "https://cdn.wallpapersafari.com/53/79/ajwtby.jpg"
     },
     {
       "nombre": "Star Wars V",
+      "valoracion": "5",
       "director": "Irvin Kershner",
       "clasificacion": "Action",
       "id": 6,
       "imagen": "https://spoilertime.com/wp-content/uploads/2020/05/starwars5postermain-780x1185.jpg"
     },
     {
-      "nombre": "Evil Dead",
+      "nombre": "Alien",
+      "valoracion": "5",
       "director": "Sam Raimi",
       "clasificacion": "Terror",
       "id": 7,
+      "imagen": "https://ae01.alicdn.com/kf/HTB1JrTaIpuWBuNjSszbq6AS7FXai.jpg_640x640Q90.jpg_.webp"
+    },
+    {
+      "nombre": "Evil Dead",
+      "valoracion": "5",
+      "director": "Sam Raimi",
+      "clasificacion": "Terror",
+      "id": 8,
       "imagen": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2022/5/w1280/qR6xQePdi1WRuz0jIu40TklKjFp.jpg"
+    },
+    {
+      "nombre": "Coco",
+      "valoracion": "5",
+      "director": "Sam Raimi",
+      "clasificacion": "Animation",
+      "id": 9,
+      "imagen": "https://www.alcobendas.org/system/files/styles/imagen_destacada_noticia/private/2021-09/coco.ok_.jpg?itok=vgFk6Y53"
+    },
+    {
+      "nombre": "Drive",
+      "valoracion": "5",
+      "director": "Sam Raimi",
+      "clasificacion": "Action",
+      "id": 10,
+      "imagen": "https://marcianosmx.com/wp-content/uploads/2016/06/Drive.jpg.webp"
+    },
+    {
+      "nombre": "Holy Grail",
+      "valoracion": "9",
+      "director": "Monty Python",
+      "clasificacion": "Comedy",
+      "id": 11,
+      "imagen": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/81abe415856701.56297b79c5ce6.jpg"
+    },
+    {
+      "nombre": "Deathstalker",
+      "valoracion": "4",
+      "director": "Jim Wynorski",
+      "clasificacion": "Fantasy",
+      "id": 11,
+      "imagen": "https://i.pinimg.com/564x/ab/90/60/ab9060d7640b4d05ce071a3cde19098e--epic-movie-poster-art.jpg"
     }
   ]
 }
