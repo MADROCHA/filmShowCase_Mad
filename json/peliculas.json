@@ -36,7 +36,7 @@
       "id": 5,
       "nombre": "Brave",
       "valoracion": "5",
-      "director": "Brenda Chapman, Mark Andrews",
+      "director": "Brenda Chapman",
       "clasificacion": "Animation",
       "imagen": "https://cdn.wallpapersafari.com/53/79/ajwtby.jpg"
     },
@@ -51,7 +51,7 @@
     {
       "nombre": "Alien",
       "valoracion": "5",
-      "director": "Sam Raimi",
+      "director": "Ridley Scott",
       "clasificacion": "Terror",
       "id": 7,
       "imagen": "https://ae01.alicdn.com/kf/HTB1JrTaIpuWBuNjSszbq6AS7FXai.jpg_640x640Q90.jpg_.webp"
@@ -67,7 +67,7 @@
     {
       "nombre": "Coco",
       "valoracion": "5",
-      "director": "Sam Raimi",
+      "director": "Adrián Molina",
       "clasificacion": "Animation",
       "id": 9,
       "imagen": "https://www.alcobendas.org/system/files/styles/imagen_destacada_noticia/private/2021-09/coco.ok_.jpg?itok=vgFk6Y53"
@@ -75,7 +75,7 @@
     {
       "nombre": "Drive",
       "valoracion": "5",
-      "director": "Sam Raimi",
+      "director": "Nicolas Winding Refn",
       "clasificacion": "Action",
       "id": 10,
       "imagen": "https://marcianosmx.com/wp-content/uploads/2016/06/Drive.jpg.webp"
