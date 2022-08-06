@@ -1,6 +1,10 @@
+![filmShowCase_gif1](https://user-images.githubusercontent.com/100350587/183253487-9bdd620b-9f04-4ec8-8440-304e049b485b.gif)
+
 # filmShowCase_Mad
 
 ## Description
+
+filmShowCase is a web page with a catalogue movies, it gets information with a fake API using JSON.
 
 ## Tools for Development
 
@@ -8,6 +12,7 @@ Figma
 
 [![My Skills](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
 
+https://www.figma.com/file/qucNFmhChAm7eavEuxevQf/filmShowCase?node-id=0%3A1
 
 ## programming languages 
 
@@ -26,6 +31,8 @@ Tailwind CSS
 ## Launch Project
 
 ## Project Media
+
+https://user-images.githubusercontent.com/100350587/183253191-ecd148e1-2c6c-4d2b-8907-729a0fa07934.mp4
 
 ## Deploy
 
